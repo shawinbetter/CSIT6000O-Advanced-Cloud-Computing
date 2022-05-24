@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: httplat
+  namespace: default
+  labels:
+    app: httplat
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: httplat
+  template:
+    metadata:
+      name: httplat
+      labels:
+        app: httplat
+    spec:
+      containers:
+      - name: httplat
+        image: jpetazzo/httplat
+        imagePullPolicy: IfNotPresent
+        command: [ "httplat" ]
+        args: ["http://rng"] # optional: rng, hasher, for example, "http://rng"

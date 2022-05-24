@@ -1,0 +1,113 @@
+====word count====
+<class 'pyspark.rdd.RDD'>
+CAT
+CAT
+1 test passed.
+['CAT', 'ELEPHANT', 'RAT', 'RAT', 'CAT']
+1 test passed.
+['CAT', 'ELEPHANT', 'RAT', 'RAT', 'CAT']
+1 test passed.
+[3, 8, 3, 3, 3]
+1 test passed.
+[('cat', 1), ('elephant', 1), ('rat', 1), ('rat', 1), ('cat', 1)]
+1 test passed.
+cat: [1, 1]
+elephant: [1]
+rat: [1, 1]
+1 test passed.
+[('cat', 2), ('elephant', 1), ('rat', 2)]
+1 test passed.
+[('cat', 2), ('elephant', 1), ('rat', 2)]
+1 test passed.
+[('cat', 2), ('elephant', 1), ('rat', 2)]
+1 test passed.
+3
+1 test passed.
+5
+1.67
+1 test passed.
+[('cat', 2), ('elephant', 1), ('rat', 2)]
+1 test passed.
+hi you
+no underscore
+1 test passed.
+0: 
+1: project gutenbergs the complete works of william shakespeare by william
+2: shakespeare
+3: 
+4: this ebook is for the use of anyone anywhere in the united states and
+5: most other parts of the world at no cost and with almost no restrictions
+6: whatsoever  you may copy it give it away or reuse it under the terms
+7: of the project gutenberg license included with this ebook or online at
+8: wwwgutenbergorg  if you are not located in the united states youll
+9: have to check the laws of the country where you are located before using
+10: this ebook
+11: 
+12: see at the end of this file  content note added in 2017 
+13: 
+14: 
+['zwounds', 'zwounds', 'zwounds', 'zwounds', 'zwounds']
+959524
+1 test passed.
+1 test passed.
+the: 30018
+and: 28358
+i: 21868
+to: 20890
+of: 18815
+a: 16000
+you: 14438
+my: 13191
+in: 12034
+that: 11781
+1 test passed.
+====log analysis====
+Number of invalid logline: 3
+Invalid logline: 204.120.229.63 - - [01/Jul/1995:04:29:05 -0400] "GET /history/history.html                                                 hqpao/hqpao_home.html HTTP/1.0" 200 1502
+Invalid logline: nccse.gsfc.nasa.gov - - [01/Jul/1995:07:36:13 -0400] "GET /shuttle/missions/missions.html Shuttle Launches from Kennedy Space Center HTTP/1.0" 200 8677
+Invalid logline: ix-nbw-nj1-22.ix.netcom.com - - [01/Jul/1995:10:42:09 -0400] "GET /finger @net.com HTTP/1.0" 404 -
+Read 43177 lines, successfully parsed 43174 lines, failed to parse 3 lines
+Read 43177 lines, successfully parsed 43177 lines, failed to parse 0 lines
+1 test passed.
+1 test passed.
+1 test passed.
+Content Size Avg: 24992, Min: 0, Max: 1646592
+Found 4 response codes
+Response Code Counts: [(200, 38606), (304, 2631), (302, 1734), (404, 206)]
+1 test passed.
+1 test passed.
+[200, 304, 302, 404]
+[0.89413345067976, 0.060935220140352506, 0.04016027051439424, 0.004771058665493202]
+Any 20 hosts that have accessed more then 10 times: ['unicomp6.unicomp.net', '129.94.144.152', 'alyssa.prodigy.com', 'www-a1.proxy.aol.com', 'link097.txdirect.net', 'ix-or10-06.ix.netcom.com', 'brandt.xensei.com', 'teleman.pr.mcs.net', 'midcom.com', 'dnet018.sat.texas.net', 'svasu.extern.ucsd.edu', '166.79.67.111', 'www-d3.proxy.aol.com', 'ix-tam1-26.ix.netcom.com', 'dynip38.efn.org', 'piweba1y.prodigy.com', 'leet.cts.com', 'www-b2.proxy.aol.com', 'kuts5p06.cc.ukans.edu', 'slip-5.io.com']
+Top Ten Endpoints: [('/images/NASA-logosmall.gif', 2752), ('/images/KSC-logosmall.gif', 2392), ('/shuttle/countdown/count.gif', 1809), ('/shuttle/countdown/', 1798), ('/shuttle/missions/sts-71/sts-71-patch-small.gif', 1092), ('/images/ksclogo-medium.gif', 1049), ('/images/MOSAIC-logosmall.gif', 1049), ('/images/USA-logosmall.gif', 1048), ('/images/WORLD-logosmall.gif', 1024), ('/images/launch-logo.gif', 973)]
+1 test passed.
+Top Five failed URLs: [('/images/NASA-logosmall.gif', 468), ('/images/KSC-logosmall.gif', 294), ('/shuttle/countdown/liftoff.html', 199), ('/shuttle/countdown/', 141), ('/shuttle/countdown/count.gif', 140)]
+1 test passed.
+1 test passed.
+Unique hosts: 3597
+1 test passed.
+Unique hosts per hour: [(0, 378), (1, 329), (2, 263), (3, 194), (4, 179), (5, 156), (6, 165), (7, 170), (8, 211), (9, 245), (10, 328), (11, 323), (12, 280), (13, 306), (14, 317), (15, 351), (16, 362), (17, 112)]
+1 test passed.
+1 test passed.
+1 test passed.
+1 test passed.
+1 test passed.
+Average number of hourly requests per Hosts is [(0, 9), (1, 9), (2, 8), (3, 8), (4, 8), (5, 8), (6, 9), (7, 9), (8, 9), (9, 8), (10, 9), (11, 10), (12, 9), (13, 10), (14, 9), (15, 9), (16, 8), (17, 6)]
+1 test passed.
+1 test passed.
+1 test passed.
+1 test passed.
+Found 206 404 URLs
+1 test passed.
+1 test passed.
+404 URLS: ['/news/sci.space.shuttle/archive/sci-space-shuttle-22-apr-1995-40.txt', '/history/apollo-13/apollo-13.html', '/history/apollo/pad-abort-test-1/sounds/', '/history/apollo/pad-abort-test-1/movies/', '/history/apollo/pad-abort-test-1/docs/', '/:/spacelink.msfc.nasa.gov', '/robots.txt', '/shuttle/missions/sts-85/mission-sts-85.html', '/://spacelink.msfc.nasa.gov', '/ads/eds2_ad.gif', '/Business/', '/misc/showcase/personal_edition/images/milan_banner.gif', '/Titles?qt=nasa', '/shuttle/resources/orbiters/atlantis.gif', '/shuttle/missions/sts-68/ksc-upclose.gif', '/shuttle/missions/sts-86/mission-sts-86.html', '/shuttle/missions/sts-65/sts-65-day-04-highlights.html', '/shuttle/missions/sts-71/ksc-status-06-05-95.txt', '/.pub.win3.winvn', '/software/winvn/winvn.html.', '/people/nasa-cm/jmd.html', '/news/sci.space.shuttle/archive/sci-space-shuttle-9-aug-1994-62.txt', '/shuttle/missions/sts-67/images/images.htm', '/lc39a.gif', '/shuttle/missions/sts-XX/mission-sts-XX.html', '/images/crawlerway.gif', '/shuttle/countdown/images/NASA-logosmall.gi', '//images/NASA-logosmall.gi', '/images/NASA-logosmall.gi', '/history/apollo/apollo-13.html']
+1 test passed.
+Top Ten 404 URLs: [('/pub/winvn/readme.txt', 20), ('/pub/winvn/release.txt', 19), ('/shuttle/missions/sts-71/images/KSC-95EC-0916.txt', 14), ('/shuttle/resources/orbiters/atlantis.gif', 13), ('/history/apollo/publications/sp-350/sp-350.txt~', 12), ('/://spacelink.msfc.nasa.gov', 5), ('/misc/showcase/personal_edition/images/milan_banner.gif', 5), ('/shuttle/missions/sts-68/ksc-upclose.gif', 4), ('/software/winvn/winvn.html.', 4), ('/people/nasa-cm/jmd.html', 4)]
+1 test passed.
+Top hours for 404 requests: [(0, 24), (1, 10), (2, 12), (3, 16), (4, 10), (5, 9), (6, 4), (7, 2), (8, 6), (9, 3), (10, 13), (11, 23), (12, 10), (13, 13), (14, 19), (15, 17), (16, 14), (17, 1)]
+1 test passed.
+1 test passed.
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+[24, 10, 12, 16, 10, 9, 4, 2, 6, 3, 13, 23, 10, 13, 19, 17, 14, 1]
+1 test passed.
+1 test passed.

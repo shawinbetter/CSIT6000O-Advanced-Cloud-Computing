@@ -1,0 +1,107 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building assignment-3 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ assignment-3 ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ assignment-3 ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cloudera/Desktop/csit6000o/csit6000o-grader/Spring2022/assignment-3/assignment-3-QIUYaowen/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ assignment-3 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 11 source files to /home/cloudera/Desktop/csit6000o/csit6000o-grader/Spring2022/assignment-3/assignment-3-QIUYaowen/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ assignment-3 ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cloudera/Desktop/csit6000o/csit6000o-grader/Spring2022/assignment-3/assignment-3-QIUYaowen/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ assignment-3 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /home/cloudera/Desktop/csit6000o/csit6000o-grader/Spring2022/assignment-3/assignment-3-QIUYaowen/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ assignment-3 ---
+[INFO] Surefire report directory: /home/cloudera/Desktop/csit6000o/csit6000o-grader/Spring2022/assignment-3/assignment-3-QIUYaowen/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running hk.ust.csit6000o.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.077 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.6:jar (default-jar) @ assignment-3 ---
+[INFO] Building jar: /home/cloudera/Desktop/csit6000o/csit6000o-grader/Spring2022/assignment-3/assignment-3-QIUYaowen/target/assignment-3-1.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.394s
+[INFO] Finished at: Sat Apr 09 09:50:55 PDT 2022
+[INFO] Final Memory: 26M/343M
+[INFO] ------------------------------------------------------------------------
+====BigramPairs====
+total number of unique bigrams: 89925
+total number of bigrams: 171207
+number of bigrams that appear only once: 72438
+
+ten most frequent bigrams: 
+of	the	820
+in	the	724
+I	had	579
+that	I	503
+I	was	452
+and	I	398
+to	the	393
+to	be	390
+on	the	374
+at	the	374
+====BigramStripes====
+total number of unique bigrams: 89925
+total number of bigrams: 171207
+number of bigrams that appear only once: 72438
+
+ten most frequent bigrams: 
+of	the	820
+in	the	724
+I	had	579
+that	I	503
+I	was	452
+and	I	398
+to	the	393
+to	be	390
+on	the	374
+at	the	374
+====BigramFrePairs====
+Ten most frequent bigrams starting with the:
+the		7216.0
+the	same	0.011086474
+the	old	0.009284923
+the	first	0.007899113
+the	best	0.006236142
+the	two	0.00595898
+the	other	0.00595898
+the	whole	0.0054046563
+the	time	0.0052660755
+the	way	0.0051274947
+the	man	0.0051274947
+====BigramFreStripes====
+Ten most frequent bigrams starting with the:
+the		7216.0
+the	same	0.011086474
+the	old	0.009284923
+the	first	0.007899113
+the	best	0.006236142
+the	two	0.00595898
+the	other	0.00595898
+the	whole	0.0054046563
+the	time	0.0052660755
+the	way	0.0051274947
+the	man	0.0051274947

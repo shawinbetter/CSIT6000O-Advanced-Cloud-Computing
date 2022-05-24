@@ -1,0 +1,6 @@
+QIUYaowen yqiuau mark: 
+====BigramPairs==== Mark: 1/1
+====BigramStripes==== Mark: 1/1
+====BigramFrePairs==== Mark: 2/2
+====BigramFreStripes==== Mark: 2/2
+====Total Mark: 6/6
